@@ -40,7 +40,7 @@ export default function HomeScreen() {
         {/* Seção Matrícula */}
         <TouchableOpacity
           style={styles.card}
-          // onPress={() => router.push('/forms-aluno')}
+          onPress={() => router.push('/forms-aluno')}
         >
           <Text style={styles.cardTitle}>Pré Matrícula</Text>
           <Text style={styles.cardSubtitle}>Cadastre os dados do aluno</Text>
@@ -49,7 +49,7 @@ export default function HomeScreen() {
         {/* Seção Gerenciamento de Matrículas */}
         <TouchableOpacity
           style={styles.card}
-          // onPress={() => router.push('/loginAdm')}
+          onPress={() => router.push('./loginAdm')}
         >
           <Text style={styles.cardTitle}>Matrículas</Text>
           <Text style={styles.cardSubtitle}>
@@ -60,7 +60,7 @@ export default function HomeScreen() {
         {/* Seção Contatos */}
         <TouchableOpacity
           style={styles.card}
-          // onPress={() => router.push('/aboutUs')}
+          onPress={() => router.push('/aboutUs')}
         >
           <Text style={styles.cardTitle}>Sobre a Instituição</Text>
           <Text style={styles.cardSubtitle}>
