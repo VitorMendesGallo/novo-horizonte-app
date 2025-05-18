@@ -2,7 +2,7 @@ import { Picker } from "@react-native-picker/picker";
 import { router } from "expo-router";
 import { debounce } from "lodash";
 import React, { useCallback, useMemo, useState } from "react";
-import { useMultiStepStore } from "../store/useFormStore";
+import { useMultiStepStore } from "@/store/useFormStore";
 
 import {
   KeyboardAvoidingView,

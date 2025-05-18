@@ -13,7 +13,7 @@ import {
 import { Picker } from "@react-native-picker/picker";
 import MaskInput from "react-native-mask-input";
 import { useMultiStepStore } from "@/store/useFormStore";
-import api from "../api/axiosInstance";
+import api from "@/api/axiosInstance";
 
 const FormularioCompleto = () => {
   // Estados consolidados em um único objeto
